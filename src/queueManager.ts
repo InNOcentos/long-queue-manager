@@ -8,4 +8,15 @@ export default class AmqpManager {
     constructor (db: DBInterface) {
         this.db = db
     }
+
+
+    async init() {
+        try {
+
+        } catch (e) {
+
+        }
+        
+        return true
+    }
 }
